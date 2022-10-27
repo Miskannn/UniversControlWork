@@ -10,16 +10,16 @@ const Footer = () => {
                         <h5 className="uppercase mb-6 font-bold text-white">Links</h5>
                         <ul className="mb-4">
                             <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Додому</a>
+                                <a href="/" className="text-gray-400 hover:text-gray-200 hover:underline">Додому</a>
                             </li>
                             <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Про мене</a>
+                                <a href="/about" className="text-gray-400 hover:text-gray-200 hover:underline">Про мене</a>
                             </li>
                             <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Контакти</a>
+                                <a href="/contact" className="text-gray-400 hover:text-gray-200 hover:underline">Контакти</a>
                             </li>
                             <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Хоббі</a>
+                                <a href="/hobby" className="text-gray-400 hover:text-gray-200 hover:underline">Хоббі</a>
                             </li>
                         </ul>
                     </div>
@@ -27,13 +27,10 @@ const Footer = () => {
                         <h5 className="uppercase mb-6 font-bold text-white">Social</h5>
                         <ul className="mb-4">
                             <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Facebook</a>
+                                <a href="https://github.com/Miskannn" className="text-gray-400 hover:text-gray-200 hover:underline">Github</a>
                             </li>
                             <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Linkedin</a>
-                            </li>
-                            <li className="mt-2">
-                                <a href="#" className="text-gray-400 hover:text-gray-200 hover:underline">Twitter</a>
+                                <a href="https://www.linkedin.com/in/maksim-k-886844225/" className="text-gray-400 hover:text-gray-200 hover:underline">Linkedin</a>
                             </li>
                         </ul>
                     </div>
