@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, HeadFC } from "gatsby"
+import Layout from "../components/Layout";
 
 const pageStyles = {
   color: "#232129",
@@ -25,9 +26,14 @@ const codeStyles = {
 
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-        <h1>Not found</h1>
-    </main>
+   <Layout>
+   {/*  Write not found page*/}
+     <h1>Not found</h1>
+        <p>Sorry, we couldn’t find what you were looking for.</p>
+        <p>
+            <Link to="/">Go home</Link>.
+        </p>
+   </Layout>
   )
 }
 
