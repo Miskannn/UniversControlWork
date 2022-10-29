@@ -27,9 +27,8 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
    <Layout>
-   {/*  Write not found page*/}
-     <h1>Not found</h1>
-        <p>Sorry, we couldn’t find what you were looking for.</p>
+     <h1>Вибачте</h1>
+        <p>Такої сторінки не знайдено</p>
         <p>
             <Link to="/">Go home</Link>.
         </p>
