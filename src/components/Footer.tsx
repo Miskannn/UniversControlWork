@@ -21,6 +21,9 @@ const Footer = () => {
                             <li className="mt-2">
                                 <a href="/hobby" className="text-gray-400 hover:text-gray-200 hover:underline">Хоббі</a>
                             </li>
+                            <li className="mt-2">
+                                <a href="/sitemap" className="text-gray-400 hover:text-gray-200 hover:underline">Карта сайту</a>
+                            </li>
                         </ul>
                     </div>
                     <div className="w-full md:w-1/2 text-center md:text-left ">
